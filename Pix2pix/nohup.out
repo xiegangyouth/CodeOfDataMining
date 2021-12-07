@@ -1,0 +1,254 @@
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:469: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:470: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:471: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:472: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:473: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:476: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+usage: pix2pix.py [-h] [--input_dir INPUT_DIR] --mode {train,test,export}
+                  --output_dir OUTPUT_DIR [--seed SEED]
+                  [--checkpoint CHECKPOINT] [--max_steps MAX_STEPS]
+                  [--max_epochs MAX_EPOCHS] [--summary_freq SUMMARY_FREQ]
+                  [--progress_freq PROGRESS_FREQ] [--trace_freq TRACE_FREQ]
+                  [--display_freq DISPLAY_FREQ] [--save_freq SAVE_FREQ]
+                  [--separable_conv] [--aspect_ratio ASPECT_RATIO]
+                  [--lab_colorization] [--batch_size BATCH_SIZE]
+                  [--which_direction {AtoB,BtoA}] [--ngf NGF] [--ndf NDF]
+                  [--scale_size SCALE_SIZE] [--flip] [--no_flip] [--lr LR]
+                  [--beta1 BETA1] [--l1_weight L1_WEIGHT]
+                  [--gan_weight GAN_WEIGHT] [--output_filetype {png,jpeg}]
+pix2pix.py: error: unrecognized arguments: %
+2021-12-06 11:45:51.630644: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:469: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:470: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:471: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:472: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:473: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:476: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/zhangyd/anaconda3/envs/new1/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+aspect_ratio = 1.0
+batch_size = 1
+beta1 = 0.5
+checkpoint = None
+display_freq = 0
+flip = True
+gan_weight = 1.0
+input_dir = facades/train
+l1_weight = 100.0
+lab_colorization = False
+lr = 0.0002
+max_epochs = 100
+max_steps = 200
+mode = train
+ndf = 64
+ngf = 64
+output_dir = facades_train
+output_filetype = png
+progress_freq = 5
+save_freq = 50
+scale_size = 286
+seed = 708821618
+separable_conv = False
+summary_freq = 10
+trace_freq = 0
+which_direction = BtoA
+examples count = 400
+parameter_count = 57190084
+progress  epoch 1  step 5  image/sec 0.9  remaining 3m
+discrim_loss 0.10013539
+gen_loss_GAN 0.052761097
+gen_loss_L1 0.018125666
+recording summary
+progress  epoch 1  step 10  image/sec 0.9  remaining 3m
+discrim_loss 0.18573132
+gen_loss_GAN 0.100350656
+gen_loss_L1 0.03653843
+progress  epoch 1  step 15  image/sec 0.9  remaining 3m
+discrim_loss 0.2554907
+gen_loss_GAN 0.14104398
+gen_loss_L1 0.05105415
+recording summary
+progress  epoch 1  step 20  image/sec 1.0  remaining 3m
+discrim_loss 0.30990136
+gen_loss_GAN 0.177935
+gen_loss_L1 0.06517024
+progress  epoch 1  step 25  image/sec 1.0  remaining 2m
+discrim_loss 0.36638147
+gen_loss_GAN 0.21395016
+gen_loss_L1 0.082114555
+recording summary
+progress  epoch 1  step 30  image/sec 1.0  remaining 2m
+discrim_loss 0.41355833
+gen_loss_GAN 0.25668162
+gen_loss_L1 0.099403925
+progress  epoch 1  step 35  image/sec 1.0  remaining 2m
+discrim_loss 0.45488662
+gen_loss_GAN 0.2900965
+gen_loss_L1 0.111845195
+recording summary
+progress  epoch 1  step 40  image/sec 1.0  remaining 2m
+discrim_loss 0.49023777
+gen_loss_GAN 0.33200955
+gen_loss_L1 0.12581463
+progress  epoch 1  step 45  image/sec 1.0  remaining 2m
+discrim_loss 0.5279894
+gen_loss_GAN 0.36844644
+gen_loss_L1 0.13326964
+recording summary
+progress  epoch 1  step 50  image/sec 1.0  remaining 2m
+discrim_loss 0.55093884
+gen_loss_GAN 0.41231975
+gen_loss_L1 0.1457338
+saving model
+progress  epoch 1  step 55  image/sec 1.0  remaining 2m
+discrim_loss 0.5807191
+gen_loss_GAN 0.45736536
+gen_loss_L1 0.16037804
+recording summary
+progress  epoch 1  step 60  image/sec 1.0  remaining 2m
+discrim_loss 0.6042526
+gen_loss_GAN 0.5027893
+gen_loss_L1 0.17128402
+progress  epoch 1  step 65  image/sec 1.0  remaining 2m
+discrim_loss 0.6154289
+gen_loss_GAN 0.5486253
+gen_loss_L1 0.18062226
+recording summary
+progress  epoch 1  step 70  image/sec 1.0  remaining 2m
+discrim_loss 0.61162734
+gen_loss_GAN 0.61092097
+gen_loss_L1 0.19006968
+progress  epoch 1  step 75  image/sec 1.0  remaining 2m
+discrim_loss 0.63030076
+gen_loss_GAN 0.6448453
+gen_loss_L1 0.19681242
+recording summary
+progress  epoch 1  step 80  image/sec 1.0  remaining 1m
+discrim_loss 0.6376072
+gen_loss_GAN 0.69683015
+gen_loss_L1 0.20356646
+progress  epoch 1  step 85  image/sec 1.0  remaining 1m
+discrim_loss 0.6583045
+gen_loss_GAN 0.7425943
+gen_loss_L1 0.21040413
+recording summary
+progress  epoch 1  step 90  image/sec 1.0  remaining 1m
+discrim_loss 0.68710965
+gen_loss_GAN 0.77723736
+gen_loss_L1 0.21881393
+progress  epoch 1  step 95  image/sec 1.0  remaining 1m
+discrim_loss 0.6869049
+gen_loss_GAN 0.8145376
+gen_loss_L1 0.22340648
+recording summary
+progress  epoch 1  step 100  image/sec 1.0  remaining 1m
+discrim_loss 0.69435364
+gen_loss_GAN 0.85017073
+gen_loss_L1 0.22917032
+saving model
+progress  epoch 1  step 105  image/sec 1.0  remaining 1m
+discrim_loss 0.6877511
+gen_loss_GAN 0.9023185
+gen_loss_L1 0.23494887
+recording summary
+progress  epoch 1  step 110  image/sec 1.0  remaining 1m
+discrim_loss 0.71300936
+gen_loss_GAN 0.92818004
+gen_loss_L1 0.24019456
+progress  epoch 1  step 115  image/sec 1.0  remaining 1m
+discrim_loss 0.7076696
+gen_loss_GAN 0.9726318
+gen_loss_L1 0.24442933
+recording summary
+progress  epoch 1  step 120  image/sec 1.0  remaining 1m
+discrim_loss 0.7119836
+gen_loss_GAN 1.0035576
+gen_loss_L1 0.25096643
+progress  epoch 1  step 125  image/sec 1.0  remaining 1m
+discrim_loss 0.69961244
+gen_loss_GAN 1.0349811
+gen_loss_L1 0.25318974
+recording summary
+progress  epoch 1  step 130  image/sec 1.0  remaining 1m
+discrim_loss 0.68597037
+gen_loss_GAN 1.1001246
+gen_loss_L1 0.25964543
+progress  epoch 1  step 135  image/sec 1.0  remaining 1m
+discrim_loss 0.7047419
+gen_loss_GAN 1.1281179
+gen_loss_L1 0.26074603
+recording summary
+progress  epoch 1  step 140  image/sec 1.0  remaining 0m
+discrim_loss 0.70135367
+gen_loss_GAN 1.171249
+gen_loss_L1 0.2654394
+progress  epoch 1  step 145  image/sec 1.0  remaining 0m
+discrim_loss 0.702752
+gen_loss_GAN 1.1989528
+gen_loss_L1 0.26765707
+recording summary
+progress  epoch 1  step 150  image/sec 1.0  remaining 0m
+discrim_loss 0.68425363
+gen_loss_GAN 1.2672044
+gen_loss_L1 0.2718164
+saving model
+progress  epoch 1  step 155  image/sec 1.0  remaining 0m
+discrim_loss 0.66928905
+gen_loss_GAN 1.321891
+gen_loss_L1 0.2755311
+recording summary
+progress  epoch 1  step 160  image/sec 1.0  remaining 0m
+discrim_loss 0.6508562
+gen_loss_GAN 1.3807423
+gen_loss_L1 0.28070644
+progress  epoch 1  step 165  image/sec 1.0  remaining 0m
+discrim_loss 0.6392926
+gen_loss_GAN 1.4197018
+gen_loss_L1 0.28140295
+recording summary
+progress  epoch 1  step 170  image/sec 1.0  remaining 0m
+discrim_loss 0.63944995
+gen_loss_GAN 1.4549887
+gen_loss_L1 0.2825671
+progress  epoch 1  step 175  image/sec 1.0  remaining 0m
+discrim_loss 0.6267776
+gen_loss_GAN 1.5207387
+gen_loss_L1 0.28528112
+recording summary
+progress  epoch 1  step 180  image/sec 1.0  remaining 0m
+discrim_loss 0.61293006
+gen_loss_GAN 1.5616547
+gen_loss_L1 0.28738305
+progress  epoch 1  step 185  image/sec 1.1  remaining 0m
+discrim_loss 0.6030608
+gen_loss_GAN 1.5841135
+gen_loss_L1 0.2893717
+recording summary
+progress  epoch 1  step 190  image/sec 1.1  remaining 0m
+discrim_loss 0.58684707
+gen_loss_GAN 1.6495397
+gen_loss_L1 0.29182717
+progress  epoch 1  step 195  image/sec 1.1  remaining 0m
+discrim_loss 0.5721458
+gen_loss_GAN 1.6674821
+gen_loss_L1 0.2936289
+recording summary
+progress  epoch 1  step 200  image/sec 1.1  remaining 0m
+discrim_loss 0.59673375
+gen_loss_GAN 1.6992631
+gen_loss_L1 0.29825822
+saving model
